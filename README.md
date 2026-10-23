@@ -15,4 +15,5 @@ Once modified, run below command to execute in PowerShell:
 ```powershell -ExecutionPolicy Bypass -File .\phpfinder.ps1```
 
 # Snapshot of Script Output:
-![output_snap]()
+![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/phpfinder_script_output_snapshot1_masked.png)
+![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/phpfinder_script_output_snapshot2_masked.png)
