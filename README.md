@@ -6,7 +6,7 @@ Download the script on your machine and run using below command:
 
 ```powershell -ExecutionPolicy Bypass -File .\phpfinder.ps1```
 
-# Enter the root domain of your organization to find PHP vulnerabilities.
+# Enter the root domain of your organization to find PHP vulnerabilities
 
 ![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/enter_domain_prompt_snapshot.png)
 
