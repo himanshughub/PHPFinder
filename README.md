@@ -1,5 +1,5 @@
 # PHPFinder Script
-This PowerShell script in a simple solution to checks for all active SSL certificates for your organization by exporting JSON data from crt.sh, resolves each host, and probes common PHP paths over HTTPS to detect PHP (via the X-Powered-By, Server, and PHPSESSID headers), flag end-of-life versions, and export the PHP-positive hosts to an excel sheet (.xlsx).
+This PowerShell script provides a simpler and faster alternative to a vulnerability scanner for identifying active SSL-enabled hosts under your organization's root domain that may be vulnerable to the critical PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619. The script exports JSON data for domains associated with your organization's public SSL certificates from crt.sh, resolves each host, and probes common PHP paths over HTTPS. It detects PHP through the X-Powered-By, Server, and PHPSESSID headers, identifies end-of-life PHP versions, and exports all PHP-positive hosts to an Excel spreadsheet (.xlsx).
 
 # How to Run?
 Download the script on your machine and run using below command:
