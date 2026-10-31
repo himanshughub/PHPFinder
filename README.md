@@ -12,3 +12,5 @@ Download the script on your machine and run using below command:
 # Snapshot of Script Output:
 ![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/enter_domain_prompt_snapshot.png)
 ![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/PHPFinder_progress_bar_snapshot.png)
+![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/PHPFinder_script_finish_summary_snapshot.png)
+![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/PHPFinder_result_excel_sheet_snapshot.png)
