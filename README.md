@@ -6,11 +6,17 @@ Download the script on your machine and run using below command:
 
 ```powershell -ExecutionPolicy Bypass -File .\phpfinder.ps1```
 
-# Enter the root domain of your organization
+# Enter the root domain of your organization to find PHP vulnerabilities.
 
+![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/enter_domain_prompt_snapshot.png)
+
+# Advantage of using this script?
+The script processes approximately 25 domains/minute, which is significantly faster than traditional vulnerability scanning methods.
 
 # Snapshot of Script Output:
-![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/enter_domain_prompt_snapshot.png)
+
 ![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/PHPFinder_progress_bar_snapshot.png)
+
 ![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/PHPFinder_script_finish_summary_snapshot.png)
+
 ![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/PHPFinder_result_excel_sheet_snapshot.png)
