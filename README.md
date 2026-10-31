@@ -2,18 +2,13 @@
 This PowerShell script in a simple solution to checks for all active SSL certificates for your organization by exporting JSON data from crt.sh, resolves each host, and probes common PHP paths over HTTPS to detect PHP (via the X-Powered-By, Server, and PHPSESSID headers), flag end-of-life versions, and export the PHP-positive hosts to a CSV.
 
 # How to Run?
-Download the script on your machine and modify the 1st line in the script to add the domain which you would like to script to check certificates for.
-
-```$root  = "<insert_the_domain_here>"```
-
-for example:
-
-```$root  = "xxxx.com"```
-
-Once modified, run below command to execute in PowerShell:
+Download the script on your machine and run using below command:
 
 ```powershell -ExecutionPolicy Bypass -File .\phpfinder.ps1```
 
+# Enter the root domain of your organization
+
+
 # Snapshot of Script Output:
-![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/phpfinder_script_output_snapshot1_masked.png)
-![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/phpfinder_script_output_snapshot2_masked.png)
+![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/enter_domain_prompt_snapshot.png)
+![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/PHPFinder_progress_bar_snapshot.png)
