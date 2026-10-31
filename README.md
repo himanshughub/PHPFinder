@@ -13,7 +13,7 @@ Download the script on your machine and run using below command:
 # Advantage of using this script?
 Fully automated, simple to use, higher detection accuracy and significantly faster (25 domains/minute) than traditional vulnerability scanning methods.
 
-# Snapshot of Script Output:
+# Snapshots of Script Output:
 
 ![output_snap](https://github.com/himanshughub/PHPFinder/blob/main/Snapshots/PHPFinder_progress_bar_snapshot.png)
 
